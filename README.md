@@ -22,4 +22,6 @@ Install **_Nmap_**:
 (**NOTE**: Kali Linux 2.0 has nmap installed out of the box. All other distros will need this installed.)
 <pre>sudo apt-get install nmap</pre>
 
-[![asciicast](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr.png)](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr)
+
+### Activating your VPN
+[![autoanon](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr.png)](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr)
