@@ -1,3 +1,12 @@
+<pre>
+___|   _ \\ \   / |   | |   |  \  |___  |___ /   _ \  
+ __ \  |   |\   /  |   | |   |   \ |    /   _ \  |   | 
+   ) | ___/    |   ___ | |   | |\  |   /     ) | __ <  
+____/ _|      _|  _|  _|\___/ _| \_| _/   ____/ _| \_\ 
+
+</pre>
+
+
 # autoanon
 AutoAnon is a python2 script that automates the anonymization process. AutoAnon has been tested on
 both Arch and Debian based distributions using Network Manager, so this should work on Ubuntu, Mint 
