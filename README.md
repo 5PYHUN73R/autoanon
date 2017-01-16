@@ -22,6 +22,10 @@ Install **_Nmap_**:
 (**NOTE**: Kali Linux 2.0 has nmap installed out of the box. All other distros will need this installed.)
 <pre>sudo apt-get install nmap</pre>
 
+## Usage
+<pre>cd autoanon</pre>
+<pre>sudo chmod +x autoanon.py</pre>
+<pre>./autoanon.py</pre>
 
 ### Activating your VPN
-[![autoanon](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr.png)](https://asciinema.org/a/b4119z104dm9w99606mkb9pkr)
+[![autoanon](https://asciinema.org/a/4ccd1v7qjh16mqqg2ubmytcw5.png)](https://asciinema.org/a/4ccd1v7qjh16mqqg2ubmytcw5)
