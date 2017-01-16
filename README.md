@@ -29,3 +29,6 @@ Install **_Nmap_**:
 
 ### Activating your VPN
 [![autoanon](https://asciinema.org/a/4ccd1v7qjh16mqqg2ubmytcw5.png)](https://asciinema.org/a/4ccd1v7qjh16mqqg2ubmytcw5)
+
+### Checking Your VPN Connection Speed
+[![autoanon](https://asciinema.org/a/eq8cx6x7wm4imncti0pjdkfpp.png)](https://asciinema.org/a/eq8cx6x7wm4imncti0pjdkfpp)
