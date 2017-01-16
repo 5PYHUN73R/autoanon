@@ -2,6 +2,7 @@
 AutoAnon is a python2 script that automates the anonymization process. AutoAnon has been tested on
 both Arch and Debian based distributions using Network Manager, so this should work on Ubuntu, Mint 
 and Kali. Your VPN servers should also be imported into Network Manager.
+
 ![](http://imgur.com/axmp9DWl.png)
 
 ## Dependencies
