@@ -31,13 +31,14 @@ Install **_SpeedTest_**:
 <pre>sudo apt-get install speedtest-cli</pre>
 
 Install **_The Pirate Bay CLI_**
-<pre>sudo apt-get install pirate-get
+<pre>sudo apt-get install pirate-get</pre>
 
 Install **_Nmap_**:
 (**NOTE**: Kali Linux 2.0 has nmap installed out of the box. All other distros will need this installed.)
 <pre>sudo apt-get install nmap</pre>
 
-## Usage
+## Installation and Usage
+<pre>git clone https://github.com/5PYHUN73R/autoanon.git</pre>
 <pre>cd autoanon</pre>
 <pre>sudo chmod +x autoanon.py</pre>
 <pre>./autoanon.py</pre>
