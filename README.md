@@ -12,7 +12,7 @@ AutoAnon is a python2 script that automates the anonymization process. AutoAnon 
 both Arch and Debian based distributions using Network Manager, so this should work on Ubuntu, Mint 
 and Kali. Your VPN servers should also be imported into Network Manager.
 
-![](http://imgur.com/axmp9DWl.png)
+![](http://www.enlightenment.org/ss/e-587df0b3e68151.81641784.jpg)
 
 ## Dependencies
 Install **_figlet_**:
@@ -20,6 +20,9 @@ Install **_figlet_**:
 
 Install **_Surf_**:
 <pre>sudo apt-get install surf</pre>
+
+Install **_elinks_**
+<pre>sudo apt-get install elinks</pre>
 
 Install **_xsltproc_**:
 <pre>sudo apt-get install xsltproc</pre>
