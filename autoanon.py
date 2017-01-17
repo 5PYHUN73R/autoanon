@@ -25,7 +25,11 @@ def menu():
                [8n] Let Nmap scan your network
 	        [9] Check your connection speed
                [9p] Check your Tor connection speed
-	       [10] Reboot
+               [10] Anonymously search The Pirate Bay
+               [11] Edit your torrc file
+               [12] Edit proxychains.conf
+               [13[ View the Hidden Wiki in Elinks
+	       [14] Reboot
 	        [0] Exit
             """
 
@@ -168,6 +172,40 @@ def menu():
             elif con == 'n':
                 sys.exit(0)
         elif op == '10':
+            query = raw_input("What would you like to search: ")
+            print "Searching TPB for %s..." % query
+            subprocess.call(['proxychains', 'pirate-get', '%s' % query])
+            con = raw_input('Continue?(y or n): ')
+            if con == 'y':
+                continue
+            elif con == 'n':
+                sys.exit(0)
+        elif op == '11':
+            print 'Opening torrc...'
+            subprocess.call(['sudo', 'nano', '/etc/tor/torrc'])
+            con = raw_input('Continue?(y or n): ')
+            if con == 'y':
+                continue
+            elif con == 'n':
+                sys.exit(0)
+	elif op == '12':
+            print 'Opening proxychains.conf...'
+            subprocess.call(['sudo', 'nano', '/etc/proxychains.conf'])
+            con = raw_input('Continue?(y or n): ')
+            if con == 'y':
+                continue
+            elif con == 'n':
+                sys.exit(0)
+        elif op == '13':
+            print 'Connecting to the DarkNet...'
+            time.sleep(3)
+            subprocess.call(['proxychains', 'elinks', 'http://jh32yv5zgayyyts3.onion/'])
+            con = raw_input('Continue?(y or n): ')
+            if con == 'y':
+                continue
+            elif con == 'n':
+                sys.exit(0)
+        elif op == '14':
 	    print 'Rebooting....'
 	    subprocess.call(['reboot'])
         elif op == '0':
@@ -180,3 +218,5 @@ def menu():
     
 if __name__ == '__main__':
     menu()
+
+
