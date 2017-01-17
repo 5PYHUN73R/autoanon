@@ -30,6 +30,9 @@ Install **_xsltproc_**:
 Install **_SpeedTest_**:
 <pre>sudo apt-get install speedtest-cli</pre>
 
+Install **_The Pirate Bay CLI_**
+<pre>sudo apt-get install pirate-get
+
 Install **_Nmap_**:
 (**NOTE**: Kali Linux 2.0 has nmap installed out of the box. All other distros will need this installed.)
 <pre>sudo apt-get install nmap</pre>
